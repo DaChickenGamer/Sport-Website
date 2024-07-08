@@ -20,10 +20,14 @@ async function generateHeadlines() {
 
 function displayHeadlines(headlines) {
     headlines.forEach(function(headline) {
+        const headlineContainer = document.createElement('div')
         const headlineElement = document.createElement('p');
         headlineElement.textContent = headline;
-        topHeadlinesDisplay.appendChild(headlineElement);
+        headlineContainer.appendChild(headlineElement);
         headlineElement.setAttribute('id', 'headline')
+        const line = document.createElement("hr")
+        headlineContainer.appendChild(line);
+        topHeadlinesDisplay.appendChild(headlineContainer)
     });
 }
 

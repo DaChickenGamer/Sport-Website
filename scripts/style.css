@@ -11,7 +11,7 @@ header {
 }
 
 body {
-  background-color: #edeef0;
+  background-color: #d5d5d5;
   /*display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 2rem;*/
@@ -112,46 +112,38 @@ article {
   background-color: #c2c2c2;
 }
 
-
-
 #recent-games {
+  padding: 5px;
   display: inline-block;
   width: 40%;
-  background-color: #05d7e6;
+  background-color: #edeef0b4;
   border-radius: 2%;
   height: 100%;
+  margin: 10px;
 }
-
 
 
 #top-headlines {
   display: inline-block;
   height: 100%;
-  background-color: #314cb4;
+  background-color: #edeef0b4;
   border-radius: 2%;
   width: 100%;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  margin: 10px;
+  padding: 5px;
 }
 
 #players {
+  padding: 5px;
   display: inline-block;
   width: 40%;
   height: 100%;
-  background-color: #eba50f;
+  background-color: #edeef0b4;
   border-radius: 2%;
-}
-
-
-  
-
-
-
-.container-column {
-  height: 100%;
-  width: 100%;
-  display: flex;
+  margin: 10px;
 }
 
 html {
@@ -160,13 +152,11 @@ html {
 }
 
 .container {
-  width: 300px;
+  width: 80%;
   margin: 40px auto;
   padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  height: 100%;
 }
 
 
@@ -215,12 +205,9 @@ h2 {
   width: 100%;
   margin-bottom: 10px;
 }
-
+*/
 #headline {
-  color: white;
-  background-color: gray;
   margin: 10px;
   padding: 5px;
   border-radius: 10px;
 }
-*/
