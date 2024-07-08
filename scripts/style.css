@@ -129,11 +129,15 @@ article {
   background-color: #edeef0b4;
   border-radius: 2%;
   width: 100%;
+  margin: 10px;
+  padding: 5px;
+}
+
+#top-headlines-display{
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  margin: 10px;
-  padding: 5px;
+  height: 100%;
 }
 
 #players {

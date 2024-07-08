@@ -1,4 +1,4 @@
-const topHeadlinesDisplay = document.getElementById('top-headlines');
+const topHeadlinesDisplay = document.getElementById('top-headlines-display');
 const sports = ["basketball", "football", "hockey", "baseball"];
 const leagues = ["nba", "nfl", "nhl", "mlb"];
 
